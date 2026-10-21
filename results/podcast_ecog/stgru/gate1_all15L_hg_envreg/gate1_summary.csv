@@ -1,0 +1,2 @@
+band,n_total,n_significant,null_r_threshold,rho_significant,rho_ci_lo_subject_boot,rho_ci_hi_subject_boot,p_naive,rho_all_electrodes
+high_gamma,1268,156,0.12359534865344145,0.5799551122120098,0.4339541990590689,0.6854138028963521,2.1289406976795023e-15,0.12444519088645165

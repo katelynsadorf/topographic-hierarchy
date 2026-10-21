@@ -1,0 +1,40 @@
+{
+  "band": "high_gamma",
+  "all_electrodes": {
+    "n_electrodes": 1268,
+    "n_subjects": 9,
+    "spearman_rho": -0.32688504479373304,
+    "p_naive": 5.853186627496256e-33,
+    "ci_lo": -0.44269183997940975,
+    "ci_hi": -0.23573195761647087,
+    "p_perm": 0.0001999600079984003
+  },
+  "in_model_regions_stages_1_to_5": {
+    "n_electrodes": 385,
+    "n_subjects": 9,
+    "spearman_rho": -0.3530474059619137,
+    "p_naive": 9.619454650833775e-13,
+    "ci_lo": -0.5813531482900469,
+    "ci_hi": -0.11249113330596867,
+    "p_perm": 0.0001999600079984003
+  },
+  "median_best_lag_frames": 4.5,
+  "args": {
+    "wav": "data/ds005574/stimuli/podcast.wav",
+    "ecog": "data/pavlos_handoff/ecog_bands_ecogprep.h5",
+    "electrodes": "electrodes_good_labeled.csv",
+    "band": "high_gamma",
+    "lag_min": -5,
+    "lag_max": 12,
+    "log": false,
+    "env": "hilbert",
+    "fif_root": null,
+    "clean": false,
+    "out_root": "figures",
+    "n_boot": 2000,
+    "n_perm": 5000,
+    "seed": 0
+  },
+  "top10pct_peak_lag_ms_median": 80.0,
+  "top10pct_fraction_lag_0_to_640ms": 1.0
+}
