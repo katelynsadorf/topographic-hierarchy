@@ -23,4 +23,4 @@ Nothing in `data/` is committed. Put inputs here (paths are relative to the proj
 - Current file is a placeholder inference run (30 s windows, 4 s padding). Each of the 15 layers has 1,024 channels of memory state (`mems`).
 
 ## Band export
-`data/pavlos_handoff/ecog_bands_ecogprep.h5` is created by `export_bands_ecogprep.py`. It holds, per subject, theta (4-8), beta (13-30), low gamma (30-60), mid gamma (60-90) and high gamma (90-150 Hz), each (n_electrodes, 22500) and z-scored on an 80 ms clock.
+`data/pavlos_handoff/ecog_bands_ecogprep.h5` is generated, not downloaded. It is created by `export_bands_ecogprep.py`. It holds, per subject, theta (4-8), beta (13-30), low gamma (30-60), mid gamma (60-90) and high gamma (90-150 Hz), each (n_electrodes, 22500) and z-scored on an 80 ms clock.
